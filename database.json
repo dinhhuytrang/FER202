@@ -1,0 +1,227 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "name": "SamSung Untra21",
+      "price": 30000000,
+      "description": "iPhone 15 Pro Max là một chiếc điện thoại thông minh cao cấp được mong đợi nhất năm 2023.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p1.png"
+    },
+    {
+      "id": "002",
+      "name": "Apple 15",
+      "price": 25000000,
+      "description": "iPhone 14 Pro là một trong những chiếc điện thoại di động hàng đầu của Apple.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p2.png"
+    },
+    {
+      "id": "003",
+      "name": "SamSung Untra24",
+      "price": 15000000,
+      "description": "Tai nghe Sony WH-1000XM5 với chất lượng âm thanh tuyệt vời và tính năng chống ồn hiệu quả.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p3.png"
+    },
+    {
+      "id": "004",
+      "name": "SamSungS24",
+      "price": 12000000,
+      "description": "Máy ảnh Canon EOS R5 với khả năng quay video 8K và cảm biến CMOS Full-Frame 45MP.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p4.png"
+    },
+    {
+      "id": "005",
+      "name": "SamSung Z-Flix23",
+      "price": 2000000,
+      "description": "Giày thể thao Nike Air Zoom Pegasus 38 với thiết kế thoải mái và hiệu suất tốt.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p5.png"
+    },
+    {
+      "id": "006",
+      "name": "Apple 14 Promax",
+      "price": 1800000,
+      "description": "Áo khoác Adidas Terrex với công nghệ giữ ấm và chống nước hiệu quả.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p6.png"
+    },
+    {
+      "id": "007",
+      "name": "Samsung F15",
+      "price": 5000000,
+      "description": "Màn hình cong Samsung Odyssey G7 với tần số làm mới cao và độ phân giải QHD.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p7.png"
+    },
+    {
+      "id": "008",
+      "name": "Iphone 16 Promax",
+      "price": 7000000,
+      "description": "Tivi LG OLED C1 với công nghệ OLED và hỗ trợ định dạng video HDR.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p8.png"
+    },
+    {
+      "orderDate": "2024-04-25",
+      "requireDate": "2024-04-27",
+      "fullName": "aa",
+      "address": "hn",
+      "phone": "1201",
+      "email": "a@gmail.com",
+      "id": "dbMcwrj"
+    },
+    {
+      "orderDate": "2024-04-24",
+      "requireDate": "2024-05-02",
+      "fullName": "a",
+      "address": "asd",
+      "phone": "0100101",
+      "email": "aaaa@gmail.com",
+      "id": "L48JfFn"
+    }
+  ],
+  "categories": [
+    {
+      "id": "001",
+      "name": "Smartphones"
+    },
+    {
+      "id": "002",
+      "name": "Headphones"
+    },
+    {
+      "id": "003",
+      "name": "Cameras"
+    },
+    {
+      "id": "004",
+      "name": "Shoes"
+    },
+    {
+      "id": "005",
+      "name": "Jackets"
+    },
+    {
+      "id": "006",
+      "name": "Monitors"
+    },
+    {
+      "id": "007",
+      "name": "Televisions"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "001",
+      "email": "example1@example.com",
+      "password": "password1",
+      "gender": "male",
+      "dob": "1990-01-01",
+      "role": "user"
+    },
+    {
+      "id": "002",
+      "email": "example2@example.com",
+      "password": "password2",
+      "gender": "female",
+      "dob": "1995-05-15",
+      "role": "admin"
+    },
+    {
+      "id": "003",
+      "email": "example3@example.com",
+      "password": "password3",
+      "gender": "male",
+      "dob": "1985-12-20",
+      "role": "user"
+    },
+    {
+      "id": "",
+      "email": "a@gmail.com",
+      "password": "123456789",
+      "dateOfBirth": "2024-04-18",
+      "gender": "male",
+      "Role": "user"
+    },
+    {
+      "id": "",
+      "email": "a@gmail.com",
+      "password": "12345678",
+      "dateOfBirth": "2024-04-21",
+      "gender": "male",
+      "Role": "user"
+    },
+    {
+      "id": "",
+      "email": "b@gmail.com",
+      "password": "123456789",
+      "dateOfBirth": "2024-04-14",
+      "gender": "male",
+      "Role": "admin"
+    },
+    {
+      "id": "",
+      "email": "a@fpt.edu.vn",
+      "password": "12345678",
+      "dateOfBirth": "2024-04-25",
+      "gender": "male",
+      "Role": "user"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderDate": "2024-04-24",
+      "requireDate": "2024-04-24",
+      "customers": {
+        "cusId": "001",
+        "fulname": "NVA",
+        "address": "NB",
+        "phone": "0967123029",
+        "email": "a@fpt.edu.vn"
+      },
+      "products": [
+        {
+          "id": "001",
+          "name": "SamSung Untra21",
+          "price": 30000000,
+          "quantity": 1,
+          "vat": 2400000,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "orderDate": "2024-04-24",
+      "requireDate": "2024-04-24",
+      "fullName": "NVA",
+      "address": "NB",
+      "phone": "01001011",
+      "email": "a@fpt.edu.vn",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "id": "002",
+      "name": "Apple 15",
+      "price": 25000000,
+      "description": "iPhone 14 Pro là một trong những chiếc điện thoại di động hàng đầu của Apple.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p2.png",
+      "quantity": 1
+    },
+    {
+      "id": "003",
+      "name": "SamSung Untra24",
+      "price": 15000000,
+      "description": "Tai nghe Sony WH-1000XM5 với chất lượng âm thanh tuyệt vời và tính năng chống ồn hiệu quả.",
+      "createdAt": "11/4/2024",
+      "image": "/assets/p3.png",
+      "quantity": 1
+    }
+  ]
+}
